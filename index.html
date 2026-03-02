@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PyraMedz</title>
+    <style>
+        body {
+            background-color: black;
+            color: #00ff00;
+            font-family: monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-size: 24px;
+        }
+        .text {
+            text-align: center;
+            border: 2px solid #00ff00;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px #00ff00;
+        }
+        .cursor {
+            animation: blink 1s infinite;
+        }
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="text">
+        <h1>WELCOME TO PYR<span class="cursor">A</span>MEDZ</h1>
+        <p>>>> SYSTEM ONLINE <<<</p>
+        <p style="font-size: 16px; margin-top: 30px;">_</p>
+    </div>
+</body>
+</html>
